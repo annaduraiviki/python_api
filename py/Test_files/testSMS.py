@@ -21,7 +21,7 @@ username = 'annaduraidm@hotmail.com'
 # Set YOUR unique API hash
 # It is available from the docs page
 # https://control.txtlocal.co.uk/docs/
-hash = 'e932b01ca4d0d12e88e41c6c555cb6ffc0051037'
+hash = 'e932b01ca4d0d12e88e41c6c555cb6ffc005103744'
  
 # Set a sender name.
 # Sender name must alphanumeric and 
@@ -40,7 +40,8 @@ test_flag = 1
 # 44 is the country code for the UK
 # Multiple numbers can be specified if required
 # e.g. numbers = ('447xxx123456','447xxx654321')
-numbers = ('9626909678')
+
+numbers = raw_input('Enter Mobile NUmber')
  
 # Define your message
 message = 'Test message sent from my Raspberry Pi'
