@@ -7,10 +7,12 @@ from stat import *
 
 message = raw_input("Enter text: ")
 number = raw_input("Enter number: ")
+user_name = raw_input("Enter username/login w2sms : ")
+pass_word = raw_input("Enter password for w2sms: ")
 
 if __name__ == "__main__":    
-    username = "9626909678"
-    passwd = "15031989"
+    username = user_name
+    passwd = pass_word
 
     message = "+".join(message.split(' '))
 
