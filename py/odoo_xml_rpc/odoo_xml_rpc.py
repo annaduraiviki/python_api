@@ -8,7 +8,7 @@ import xmlrpclib
 #odoo = xmlrpclib.ServerProxy('http://localhost:8071/xmlrpc/2/object')
 
 db = 'viki2'
-user = 'annaduraidm@hotmail.com'
+user = 'annaduraidmEXAMP@hotmail.com'
 password = '15031989'
 uid = xmlrpclib.ServerProxy('https://viki2.odoo.com/xmlrpc/2/common').authenticate(db, user, password, {})
 odoo = xmlrpclib.ServerProxy('https://viki2.odoo.com/xmlrpc/2/object')
